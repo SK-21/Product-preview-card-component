@@ -218,7 +218,7 @@ p {
     width: 90%;
     display: flex;
     background: hsl(0, 0%, 100%);
-    border-radius: 16px;
+    border-radius: 12px;
     flex-direction: column;
   }
   .card .card-section {
@@ -230,15 +230,18 @@ p {
   }
 
   .card .card-image img {
-    border-radius: 14px 14px 0 0 !important;
+    border-radius: 10px 10px 0 0 !important;
     width: 100%;
   }
   .main-head {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
   .text-head {
     font-size: 12px;
   }
+  .text-para {
+    padding-right: 1rem;
+}
 }
